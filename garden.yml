@@ -5,7 +5,7 @@ environments:
 - name: dev
   providers:
   - name: kubernetes
-    context: gke_fullstackgcp_us-central1-c_dev-cluster
+    context: gke_fullstackgcp_us-central1-c_my-dev-cluster
     buildMode: cluster-docker
 defaultEnvironment: dev
 
